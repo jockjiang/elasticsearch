@@ -383,7 +383,7 @@ final class Bootstrap {
             }
 
             // fail if somebody replaced the lucene jars
-            checkLucene();
+            //checkLucene();
 
             // install the default uncaught exception handler; must be done before security is
             // initialized as we do not want to grant the runtime permission
